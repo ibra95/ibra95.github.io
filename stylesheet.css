@@ -1,0 +1,471 @@
+.facebook-comment{
+	width: 80%;
+	margin: 0 auto;
+}
+#trainline {
+	  width: auto;
+    height: 35px;
+    text-align: center;
+    border-radius: .1em;
+    background: #a94442;
+    display: inline-block;
+    color: white;
+    position: relative;
+		padding: 1px;
+  }
+
+  #station {
+    font-size: 14px;
+    line-height: 3.1;
+    position: initial;
+    color: #a94442;
+    margin-left: 7px;
+
+  }
+li.station {
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	line-height: 2em;
+	border-radius: 1em;
+	background: dodgerblue;
+	margin: 0 1em;
+	display: inline-block;
+	color: white;
+	position: relative;
+  }
+
+
+
+
+.formlabel{
+        color: #a94442;
+    font-size: 20px;
+    font-family: fantasy;
+}
+body{
+    background:#f7f7f7;
+}
+main-content{
+min-height: 600px;
+  }
+
+#href-btn{
+
+padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    background: #dddddd;
+    color: #333333;
+
+    }
+    /*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 5px;
+}
+
+h1.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.formlabel{
+       color: #a94442;
+       font-size: 20px;
+       font-family: fantasy;
+            }
+     .inputstyle{
+      width: 400px;
+      margin: 10px;
+      height: 40px;
+            }
+     .stoplabel{
+	  background:#fcf8e394;
+    padding: 10px;
+    border-radius: 11px;
+          }
+
+      .content{
+		width: 80%;
+    margin:5px auto;
+         }
+
+
+
+   .footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 37%;
+    margin-left: 49px;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	    display: block;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.table {
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;}
+      .formlabel{
+       color: #a94442;
+       font-size: 25px;
+       font-family: fantasy;
+            }
+     .inputstyle{
+      width: 400px;
+      margin: 10px;
+      height: 40px;
+            }
+     .stoplabel{
+	  background:#fcf8e394;
+    padding: 10px;
+    border-radius: 11px;
+          }
+
+      .content{
+	  	width:80%;
+	margin:10 auto;
+	  }
+
+	  .table {
+		width: 80%;
+		max-width: 100%;
+		margin-bottom: 20px;
+		margin: 0 auto;}
+		  .formlabel{
+		   color: #a94442;
+		   font-size: 25px;
+		   font-family: fantasy;
+				}
+		 .inputstyle{
+		  width: 400px;
+		  margin: 10px;
+		  height: 40px;
+				}
+		 .stoplabel{
+		  background:#fcf8e394;
+		padding: 10px;
+		border-radius: 11px;
+			  }
+
+		  .content{
+			  width:80%;
+		margin:10 auto;
+			 }
+
+
+			 ul.stations{
+	  align-content: center;
+	  align-items: center;
+	  counter-reset: stepCount;
+	  display: flex;
+	  justify-content: space-around;
+	  margin: 10vh auto 20vh; /* for codepen */
+	}
+
+	.stations li {
+	  background: dodgerblue;
+	  color: white;
+	  content: ' ';
+	  display: flex;
+	  flex-grow: 1;
+	  height: .3em;
+	  line-height: 1em;
+	  margin: 0;
+	  position: relative;
+	  text-align: right;
+	  z-index: -1;
+	}
+
+	.stations li::before {
+	  color: white;
+	  background: dodgerblue;
+	  border-radius: 50%;
+	  counter-increment: stepCount;
+	  content: counter(stepCount);
+	  height: 2em;
+	  left: -2em;
+	  line-height: 2em;
+	  position: absolute;
+	  text-align: center;
+	  top: -.85em;
+	  width: 2em;
+	}
+
+	.stations li.active {
+	  background-color: lightblue;
+	}
+
+	.stations li.active ~ li {
+	  background-color: lightblue;
+	}
+
+	.stations li.active ~ li::before {
+	  background-color: lightblue;
+	}
+
+	.stations li:last-child {
+	  flex-basis: 0;
+	  flex-grow: 0;
+	  flex-shrink: 1;}
+	  svg {
+		width: 100%;
+		/*This goes here because SVG uses em as units*/
+		font: normal 9pt sans-serif;
+	  }
+	  svg g line {
+		stroke: #80C0FF;
+		stroke-width: 2px;
+	  }
+	  svg g.active line,
+	  svg g.active ~ g line {
+		stroke: #0080FF;
+	  }
+	  svg g circle {
+		fill: #80C0FF;
+	  }
+	  svg g.active circle,
+	  svg g.active ~ g circle {
+		fill: #0080FF;
+	  }
+	  svg g text {
+		fill: #0080FF;
+		text-anchor: middle;
+	  }
+	  svg g.active text,
+	  svg g.active ~ g text {
+		fill: #FFF;
+	  }
+	  /* Make the active group bigger*/
+
+	  svg g.active {
+		font-size: 1.5em;
+	  }
+	  /* Use 'pointer' cursor*/
+
+	  svg g circle,
+	  svg g text {
+		cursor: pointer;
+	  }
